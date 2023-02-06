@@ -8,15 +8,16 @@ namespace ConsoleApp30
 {
     internal class Cuboid : _3dShapes
     {
+        private double c;
         /// <summary>
         /// Cuboid create method
         /// </summary>
         /// <param name="a"></a side>
         /// <param name="b"></b side>
         /// <param name="c"></c side>
-        public Cuboid(double a, double b, double c) : base(a, b, c)
+        public Cuboid(double a, double b, double c) : base(a, b)
         {
-
+            this.c= c;
         }
 
         public override double Area()

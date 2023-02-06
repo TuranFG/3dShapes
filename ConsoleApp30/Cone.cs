@@ -9,11 +9,11 @@ namespace ConsoleApp30
     internal class Cone : _3dShapes
     {
         public double area;
-        /// <summary>
-        /// Cone create method
-        /// </summary>
-        /// <param name="height"></height>
-        /// <param name="radius"></radius>
+   /// <summary>
+   /// 
+   /// </summary>
+   /// <param name="height"></a>
+   /// <param name="radius"></b>
         public Cone(double height, double radius) : base(height, radius)
         {
 
@@ -21,13 +21,13 @@ namespace ConsoleApp30
 
         public override double Area()
         {
-            area = pi * radius * radius;
+            area = pi * b * b;
             return area;
         }
 
         public override double Volume()
         {
-            double volume = Math.Round((area * height / 3), 2);
+            double volume = Math.Round((area * a / 3), 2);
             return volume;
         }
 
